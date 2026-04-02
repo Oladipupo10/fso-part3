@@ -1,0 +1,68 @@
+### Get all persons
+GET http://localhost:3001/api/persons
+
+
+### Add a new person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Christopher oladipo Doe",
+  "number": "08012345678"
+}
+
+
+### Delete a person (replace ID)
+DELETE http://localhost:3001/api/persons/REPLACE_ID
+
+###
+GET http://localhost:3001/api/persons/123456789012345678909876544
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Chris",
+  "number": "1234999945"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ch",
+  "number": "9999976554"
+}
+
+###
+GET http://localhost:3001/info
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Dg",
+  "number": "12346686568765"
+}
+
+
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "number": "09-1234556"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Dipo",
+  "number": "09712345678"
+}
